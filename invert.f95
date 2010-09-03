@@ -58,11 +58,6 @@ program invert
   end do
 
 
-
-
-
-
-
 !Ausgeben
   do n = 1, dim, 1 
      do m = 1, dim, 1
@@ -73,12 +68,6 @@ program invert
 
 
 end program invert
-
-
-
-
-
-
 
 
 
@@ -94,8 +83,4 @@ function showmatrix_serial(A,dim)
 
   return  
 end function showmatrix_serial
-
-
-
-
 
